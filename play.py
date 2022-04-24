@@ -2,7 +2,6 @@ import vk_api
 import random
 import time
 import traceback
-import random
 
 print('Разработано разработчиком MaxyuOff. На дошик (qiwi ник): RUTHENIUM. Среди моих проектов - бот вк Сахар - https://vk.com/caxap_media_off')
 
