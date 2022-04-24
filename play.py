@@ -9,6 +9,9 @@ print('Разработано разработчиком MaxyuOff. На доши
 print('Введи свой токен:')
 token = input()
 
+print('Введи ссылку на нужный пост для просьбы:')
+post = input()
+
 session = vk_api.VkApi(token = token)
 aa = session._auth_token()
 
@@ -30,7 +33,7 @@ while True:
       g = groupsLen - 1
       while i != g:
          choice = random.choice(texts)
-         send_message(groups[i], choice + ' https://vk.com/wall475296689_1319')
+         send_message(groups[i], choice + ' '+ post +)
          print('message sent')
          time.sleep(5)
          if i%2 == 0:
