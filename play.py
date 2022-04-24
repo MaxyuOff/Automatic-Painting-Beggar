@@ -33,7 +33,7 @@ while True:
       g = groupsLen - 1
       while i != g:
          choice = random.choice(texts)
-         send_message(groups[i], choice + ' '+ post +)
+         send_message(groups[i], choice + ' ' + post)
          print('message sent')
          time.sleep(5)
          if i%2 == 0:
